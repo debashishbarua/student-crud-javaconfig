@@ -1,0 +1,9 @@
+create database student_db;
+use student_db;
+
+create table student(
+id integer not null primary key,
+name varchar(100) not null,
+email varchar(50) not null,
+phoneno varchar(10) not null
+);
